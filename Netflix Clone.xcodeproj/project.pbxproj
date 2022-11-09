@@ -12,6 +12,12 @@
 		6B2D06E1291A75B40023E353 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06E0291A75B40023E353 /* MainTabBarViewController.swift */; };
 		6B2D06E6291A75B70023E353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D06E5291A75B70023E353 /* Assets.xcassets */; };
 		6B2D06E9291A75B70023E353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D06E7291A75B70023E353 /* LaunchScreen.storyboard */; };
+		6B2D06F2291A9AA70023E353 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06F1291A9AA70023E353 /* HomeViewController.swift */; };
+		6B2D06F4291A9B1E0023E353 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06F3291A9B1E0023E353 /* UpcomingViewController.swift */; };
+		6B2D06F6291A9B9B0023E353 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06F5291A9B9B0023E353 /* SearchViewController.swift */; };
+		6B2D06F8291A9C550023E353 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06F7291A9C550023E353 /* DownloadsViewController.swift */; };
+		6B2D06FF291AB3C10023E353 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06FE291AB3C10023E353 /* CollectionViewTableViewCell.swift */; };
+		6B5321AB291B364C00DAF7EC /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		6B2D06E5291A75B70023E353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2D06E8291A75B70023E353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B2D06EA291A75B70023E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2D06F1291A9AA70023E353 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B2D06F3291A9B1E0023E353 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		6B2D06F5291A9B9B0023E353 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6B2D06F7291A9C550023E353 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		6B2D06FE291AB3C10023E353 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 		6B2D06DB291A75B40023E353 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				6B2D06FD291AB36B0023E353 /* Managers */,
+				6B2D06FC291AB35C0023E353 /* Resources */,
+				6B2D06FB291AB2F40023E353 /* Models */,
+				6B2D06F9291AB2D30023E353 /* VIews */,
+				6B2D06FA291AB2DF0023E353 /* ViewsModels */,
+				6B2D06F0291A9A4E0023E353 /* Controllers */,
 				6B2D06DC291A75B40023E353 /* AppDelegate.swift */,
 				6B2D06DE291A75B40023E353 /* SceneDelegate.swift */,
 				6B2D06E0291A75B40023E353 /* MainTabBarViewController.swift */,
@@ -62,6 +80,54 @@
 				6B2D06EA291A75B70023E353 /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		6B2D06F0291A9A4E0023E353 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B2D06F1291A9AA70023E353 /* HomeViewController.swift */,
+				6B2D06F3291A9B1E0023E353 /* UpcomingViewController.swift */,
+				6B2D06F5291A9B9B0023E353 /* SearchViewController.swift */,
+				6B2D06F7291A9C550023E353 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6B2D06F9291AB2D30023E353 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				6B2D06FE291AB3C10023E353 /* CollectionViewTableViewCell.swift */,
+				6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		6B2D06FA291AB2DF0023E353 /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsModels;
+			sourceTree = "<group>";
+		};
+		6B2D06FB291AB2F40023E353 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B2D06FC291AB35C0023E353 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B2D06FD291AB36B0023E353 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2D06F6291A9B9B0023E353 /* SearchViewController.swift in Sources */,
 				6B2D06E1291A75B40023E353 /* MainTabBarViewController.swift in Sources */,
+				6B2D06FF291AB3C10023E353 /* CollectionViewTableViewCell.swift in Sources */,
+				6B5321AB291B364C00DAF7EC /* HeroHeaderUIView.swift in Sources */,
+				6B2D06F8291A9C550023E353 /* DownloadsViewController.swift in Sources */,
 				6B2D06DD291A75B40023E353 /* AppDelegate.swift in Sources */,
 				6B2D06DF291A75B40023E353 /* SceneDelegate.swift in Sources */,
+				6B2D06F4291A9B1E0023E353 /* UpcomingViewController.swift in Sources */,
+				6B2D06F2291A9AA70023E353 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
