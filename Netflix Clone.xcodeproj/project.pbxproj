@@ -18,6 +18,7 @@
 		6B2D06F8291A9C550023E353 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06F7291A9C550023E353 /* DownloadsViewController.swift */; };
 		6B2D06FF291AB3C10023E353 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D06FE291AB3C10023E353 /* CollectionViewTableViewCell.swift */; };
 		6B5321AB291B364C00DAF7EC /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */; };
+		6B5321AD291D574200DAF7EC /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321AC291D574200DAF7EC /* ApiCaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		6B2D06F7291A9C550023E353 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		6B2D06FE291AB3C10023E353 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		6B5321AC291D574200DAF7EC /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		6B2D06FD291AB36B0023E353 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				6B5321AC291D574200DAF7EC /* ApiCaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				6B2D06DF291A75B40023E353 /* SceneDelegate.swift in Sources */,
 				6B2D06F4291A9B1E0023E353 /* UpcomingViewController.swift in Sources */,
 				6B2D06F2291A9AA70023E353 /* HomeViewController.swift in Sources */,
+				6B5321AD291D574200DAF7EC /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
