@@ -20,6 +20,8 @@
 		6B5321AB291B364C00DAF7EC /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */; };
 		6B5321AD291D574200DAF7EC /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321AC291D574200DAF7EC /* ApiCaller.swift */; };
 		6B5321AF291D6F5C00DAF7EC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321AE291D6F5C00DAF7EC /* Movie.swift */; };
+		6B5321B1291D77A800DAF7EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321B0291D77A800DAF7EC /* Extension.swift */; };
+		6B5321B3291E7FD000DAF7EC /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5321B2291E7FD000DAF7EC /* Tv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		6B5321AA291B364C00DAF7EC /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		6B5321AC291D574200DAF7EC /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
 		6B5321AE291D6F5C00DAF7EC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		6B5321B0291D77A800DAF7EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		6B5321B2291E7FD000DAF7EC /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				6B5321AE291D6F5C00DAF7EC /* Movie.swift */,
+				6B5321B2291E7FD000DAF7EC /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		6B2D06FC291AB35C0023E353 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6B5321B0291D77A800DAF7EC /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,6 +215,7 @@
 				6B2D06F6291A9B9B0023E353 /* SearchViewController.swift in Sources */,
 				6B2D06E1291A75B40023E353 /* MainTabBarViewController.swift in Sources */,
 				6B2D06FF291AB3C10023E353 /* CollectionViewTableViewCell.swift in Sources */,
+				6B5321B1291D77A800DAF7EC /* Extension.swift in Sources */,
 				6B5321AB291B364C00DAF7EC /* HeroHeaderUIView.swift in Sources */,
 				6B2D06F8291A9C550023E353 /* DownloadsViewController.swift in Sources */,
 				6B2D06DD291A75B40023E353 /* AppDelegate.swift in Sources */,
@@ -216,6 +223,7 @@
 				6B2D06F4291A9B1E0023E353 /* UpcomingViewController.swift in Sources */,
 				6B2D06F2291A9AA70023E353 /* HomeViewController.swift in Sources */,
 				6B5321AF291D6F5C00DAF7EC /* Movie.swift in Sources */,
+				6B5321B3291E7FD000DAF7EC /* Tv.swift in Sources */,
 				6B5321AD291D574200DAF7EC /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
