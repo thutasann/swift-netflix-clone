@@ -24,7 +24,8 @@ class HomeViewController: UIViewController {
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
         return table
     }()
-
+    
+    // View Did Load
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -37,14 +38,9 @@ class HomeViewController: UIViewController {
         // Table Header
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerView
-        
-        // YouTube API Call for Movie
-        APICaller.shared.getMovie(with: "Harry Potter") {result in
-            
-        }
-        
     }
     
+    // NavBar
     private func ConfigureNavbar(){
         var image = UIImage(named: "logo")
         image = image?.withRenderingMode(.alwaysOriginal)
@@ -60,6 +56,7 @@ class HomeViewController: UIViewController {
         navigationController?.navigationBar.tintColor = .white
     }
     
+    // View Did layout Sub Views
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
@@ -86,6 +83,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for: indexPath) as? CollectionViewTableViewCell else{
             return UITableViewCell()
         }
+        
+        cell.delegate = self
         
             
         //  According to the Categories, Configure the Cells
@@ -188,3 +187,14 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
  
+
+// For Trailer Screen, Push to that page
+extension HomeViewController: CollectionViewTableViewCellDelegate {
+    func CollectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: TitlePreviewViewModel) {
+        DispatchQueue.main.async { [weak self] in
+            let vc = TitlePreviewViewController()
+            vc.configure(with: viewModel)
+            self?.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+}
